@@ -1,0 +1,29 @@
+﻿#loginbox
+{
+    position:absolute;
+    right:187px;
+    top:53px;
+    z-index:1070;
+    width:177px;
+    height:70px;
+    font-family:Arial;
+    color:White;
+    text-align:left;
+    font-size:11px;
+}
+
+#loginbox a
+{
+    color: White;
+    text-decoration: none;
+}
+
+#loginbox a:hover
+{
+    text-decoration: underline;
+}
+
+#loginbox td
+{
+    padding: 0px;
+}

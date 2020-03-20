@@ -1,0 +1,67 @@
+﻿.breadcrumb
+{
+    font-family:Tahoma;
+    color:White;
+    font-size:1.30em;
+    text-align:left;
+    padding:0px 0px 0px 15px;
+}
+
+.breadcrumb a
+{
+    color:#ee8d9e;    
+    text-decoration: underline;
+}
+
+.breadcrumb a:hover
+{
+    text-decoration: none;
+}
+
+.breadcrumb span
+{
+    color:#e83b68;
+    font-weight:bold;
+}
+
+
+
+
+
+.brdmiddle
+{
+    position:relative;
+}
+
+.brdmiddle table
+{
+    width: 100%;
+    height:100%;
+}
+
+.brdmiddle_middle
+{
+    background-color:#fef7f8;
+    height: 17px;
+}
+
+.brdmiddle_left, .brdmiddle_right
+{
+    background-repeat: repeat-y;
+    width: 1px;    
+    top: 0px;
+    position: absolute;
+    height: 17px;
+}
+
+.brdmiddle_left
+{
+    left: 0px;
+    background-image: url(images/boxm_lr.gif);
+}
+
+.brdmiddle_right
+{
+    right:0px;
+    background-image: url(images/boxm_lr.gif);
+}

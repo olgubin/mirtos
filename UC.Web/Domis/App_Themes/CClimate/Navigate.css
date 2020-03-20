@@ -1,0 +1,59 @@
+﻿.mainmenu
+{
+    width:100%;
+}
+
+.mainmenu th
+{
+    height:27px;
+}
+
+.mainmenu a
+{
+    color: #505050; 
+    font-family: Tahoma;
+    font-size: 11pt;     
+    text-decoration: none;    
+    font-weight:normal;
+}
+
+.mainmenu a:hover
+{
+    color:#e83b68;
+}
+
+.map 
+{
+    float:left;
+    width:30%;
+    padding:7px;
+}
+
+.map ul 
+{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+}
+
+.map ul li.l1 
+{
+    background:transparent url(/img/bullet2.gif) no-repeat scroll 14px 14px;
+    font-size:90%;
+    font-weight:bold;
+    padding:10px 6px 2px 26px;
+}
+
+.map ul li.l2 
+{
+    background:transparent url(/img/bullet2.gif) no-repeat scroll 26px 14px;
+    font-size:80%;
+    padding:5px 6px 2px 40px;
+}
+
+.map ul li.l3 
+{
+    background:transparent url(/img/bullet1.gif) no-repeat scroll 40px 14px;
+    font-size:70%;
+    padding:2px 6px 2px 54px;
+}

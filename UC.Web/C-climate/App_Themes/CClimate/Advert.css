@@ -1,0 +1,100 @@
+﻿.bannercenter
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.bannerheader
+{
+    float: right;
+}
+
+.adverttitle
+{
+    position: absolute;
+    height: 177px;
+    width: 23px;
+    top: 0px;
+    left: 0px;
+    background: transparent url(images/recommend.gif) no-repeat;
+}
+
+.advertbox
+{
+    position: relative;
+    height: 177px;
+    width: 100%;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.advertfon
+{
+    position: absolute;
+    height: 177px;
+    width: 1033px;
+    top: 0px;
+    right: 7px;
+    background: transparent url(images/advertfon.gif) no-repeat;
+    z-index: -100;
+}
+
+.advertcontent
+{
+    padding: 7px 0px 0px 30px;
+    height: 163px;
+    width: 100%;
+    z-index: 100;
+}
+
+.advertcontent table
+{
+    height: 100%;
+    width: 95.3%;
+}
+
+.advertcontent td
+{
+    vertical-align: middle;
+    width: 33%;
+}
+
+.advertblock
+{
+    margin: auto;
+    padding-top: 20px;
+    width: 273px;
+    height: 125px;
+    background: url(images/advertblock.png) no-repeat center;
+}
+
+.advertblock table
+{
+    width: 240px;
+    height: 117px;
+    margin-left: 19px;
+}
+
+.advertblock td
+{
+    width: auto;
+    vertical-align: top;
+    text-align: center;
+}
+
+.advertblock td.descr
+{
+    color: #777777;
+}
+
+.adwert_caption
+{
+    float: left;
+    padding: 4px 5px 0px 0px;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    color: #132f69;
+}

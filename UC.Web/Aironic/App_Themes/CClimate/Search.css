@@ -1,0 +1,15 @@
+﻿.search
+{
+    background-color: Transparent;
+    padding-top:5px;
+}
+
+input.search_text 
+{
+    margin:-1px 7px 0px 0px;
+    width:277px;
+    background:#FFFFFF none repeat scroll 0%;
+    color:#596F7B !important;
+    height:17px;
+    float:left;
+}

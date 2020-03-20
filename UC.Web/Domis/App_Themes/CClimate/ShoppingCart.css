@@ -1,0 +1,140 @@
+﻿.shoppingcartbox
+{
+    font-size: 11px;
+    position: relative;
+    font-family: Tahoma;
+    color: #393738;
+}
+
+#shoppingcartboxtotal
+{
+    height:37px;
+    padding-top:7px;
+}
+
+#shoppingcartboxtotal div
+{
+    float: left;
+    padding: 3px 17px 0px 17px;
+}
+
+#shoppingcartboxtotal span
+{
+    color: #e83b68;
+    font-weight: bold;
+}
+
+.shoppingcartboxcontent
+{
+    padding: 0px 7px 0px 10px;
+}
+
+.toshoppingcart
+{
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alt_row
+{
+    background-color:#fef7f8;
+}
+
+.price
+{
+    color: #9aaab1;
+}
+
+.wizard table
+{
+    font-size:11px;
+    font-family:Verdana;        
+}
+
+.wizard table th
+{
+    background-color:#e83b68;
+    color:White;
+    font-weight:bold;
+    height:30px;
+    border: solid 1px white;
+}
+
+.wizard table th a
+{
+    color:White;
+    text-decoration:none;
+}
+
+.wizard table th a:hover
+{
+    color:White;
+    text-decoration:underline;
+}
+
+.wizard table td
+{
+    vertical-align:middle;
+    border: solid 1px white;
+    background-color:#fef7f8;
+}
+
+.wizard table td a
+{
+    text-decoration:none;
+    color:#333333;
+}
+
+.wizard table td a:hover
+{
+    text-decoration:underline;
+    color:#BF7828;
+}
+
+.wizard table td input
+{
+    text-align:center;
+    font-size:11px;
+}
+
+.linkmenu
+{
+    color:Black;
+    font-family:Tahoma,Arial,Verdana;
+    font-size:10pt;
+    font-weight:bold;
+}
+
+.linkmenu a, .linkmenu span
+{
+    color:Black;
+    background: transparent url(images/separator.gif) no-repeat scroll right center;
+    padding-right: 15px;
+}
+
+.linkmenu a
+{
+    font-weight:normal;
+    text-decoration: underline;
+}
+
+.linkmenu a:hover
+{
+    text-decoration: none;
+}

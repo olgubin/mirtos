@@ -1,0 +1,50 @@
+<%@ Page Language="C#" MasterPageFile="Admin.master" AutoEventWireup="true"
+    CodeFile="StatisticsSearches.aspx.cs" Inherits="UC.UI.Admin.StatisticsSearches"
+    Culture="auto" UICulture="auto" %>
+
+<asp:Content ID="MainContent" ContentPlaceHolderID="MainContent" runat="Server">
+    <div class="breadcrumb">
+        <table>
+            <tr>
+                <td class="h1">
+                    <a href="../Default.aspx">Климатическое оборудование</a>
+                </td>
+                <td class="s">|</td>
+                <td class="h1">
+                    <a href="Default.aspx">Администрирование</a>
+                </td>
+                <td><h1>Статистика приходов с поисковиков</h1></td>
+            </tr>
+        </table>
+    </div>
+    <div id="content">
+    <p>Показывает с каких поисковиков и по каким запросам приходили пользователи на наш сайт. Позволяет оценить положение сайта в поисковиках и интерес пользователей интернета.</p>
+    <asp:Label runat="server" ID="lblFiltr" ForeColor="#9aaab1" Font-Bold="true"/>
+            <p>Отображать записей на странице:
+                <asp:DropDownList ID="ddlPerPage" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlRequestsPerPage_SelectedIndexChanged">
+                    <asp:ListItem Value="10">10</asp:ListItem>
+                    <asp:ListItem Value="20">20</asp:ListItem>
+                    <asp:ListItem Value="30">30</asp:ListItem>
+                    <asp:ListItem Value="40">40</asp:ListItem>
+                    <asp:ListItem Value="50" Selected="True">50</asp:ListItem>
+                </asp:DropDownList>
+</p>                
+            <asp:GridView ID="gvwSearches" runat="server" AllowPaging="true" AutoGenerateColumns="False"
+                DataKeyNames="IP" AllowSorting="true" EmptyDataText="<b>Нет данных</b>" OnRowDataBound="gvwSearches_RowDataBound">
+                <Columns>
+                    <asp:BoundField HeaderText="Дата" DataField="SessionDate" DataFormatString="{0:dd/MM/yy} {0:HH:mm}" ItemStyle-HorizontalAlign="Center" SortExpression="sessiondate" ItemStyle-Width="100px"/>
+                    <asp:BoundField HeaderText="IP адрес" DataField="IP" SortExpression="ip" ItemStyle-HorizontalAlign="Center" ItemStyle-Width="100px"/>
+                    <asp:BoundField HeaderText="Пользователь" DataField="UserID" SortExpression="userid" ItemStyle-Width="100px"/>
+                    <asp:BoundField HeaderText="Поисковик" DataField="Search" SortExpression="search"/>
+                    <asp:BoundField HeaderText="Запрос" DataField="Keyword" SortExpression="keyword"/>
+                </Columns>
+                <EmptyDataTemplate>
+                    <b>
+                        <asp:Literal ID="Literal1" runat="server" Text="Нет данных" />
+                    </b>
+                </EmptyDataTemplate>
+            </asp:GridView>
+            <asp:ObjectDataSource ID="objSearches" runat="server" EnablePaging="true" 
+                 SortParameterName="SortExpression" TypeName="UC.BLL.Statistics.StatisticsReport"></asp:ObjectDataSource>
+    </div>
+</asp:Content>

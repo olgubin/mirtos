@@ -1,0 +1,19 @@
+﻿.portfolio
+{
+    width:100%;
+    text-align:center;
+}
+
+.portfolio img
+{
+    width:200px;
+    height:150px;
+    border:solid 1px #CCCCCC !important;
+}
+
+.portfolio th
+{
+    padding:27px 0px 7px 0px;
+    font-weight:normal;
+    vertical-align:top;
+}

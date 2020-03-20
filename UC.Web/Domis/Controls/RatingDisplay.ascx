@@ -1,0 +1,1 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="RatingDisplay.ascx.cs" Inherits="UC.UI.Controls.RatingDisplay" EnableViewState="false" %><asp:Image runat="server" ID="imgRating" AlternateText="Рейтинг товара"/>

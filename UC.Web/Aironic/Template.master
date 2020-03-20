@@ -1,0 +1,166 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="UC.UI.TemplateMaster" %>
+
+<%@ Register Src="Controls/LoginView.ascx" TagName="LoginView" TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/DepartmentMenuLevel.ascx" TagName="DepartmentMenuLevel" TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/DepartmentMenuStatic.ascx" TagName="DepartmentMenuStatic" TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/ShoppingCartBox.ascx" TagName="ShoppingCartBox"
+    TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/ProductSalesBox.ascx" TagName="ProductSalesBox"
+    TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/ManufacturersBox.ascx" TagName="ManufacturerBox"
+    TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/NewsletterBox.ascx" TagName="NewsletterBox" TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/ArticleBox.ascx" TagName="ArticleBox" TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/ContactFormBox.ascx" TagName="ContactFormBox" TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/NominationBox.ascx" TagName="NominationBox" TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/ActionBox.ascx" TagName="ActionBox" TagPrefix="mb" %>
+<%@ Register Src="Controls/Search.ascx" TagName="Search" TagPrefix="mb" %>
+<%@ Register Src="Controls/MainMenu.ascx" TagName="MainMenu" TagPrefix="mb" %>
+<%@ Register Src="Controls/Banner.ascx" TagName="Banner" TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/PollBox.ascx" TagName="PollBox" TagPrefix="mb" %>
+<%@ Register Src="Controls/ColBox/AwardsBox.ascx" TagName="AwardsBox" TagPrefix="mb" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd"> -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" enableviewstate="false">
+    <title>Тепловые завесы, тепловые пушки, конвекторы</title>
+    <link rel="shortcut icon" href="~/images/favicon.ico" />
+    <meta name="keywords" lang="ru" content="тепловое оборудование, тепловые завесы, тепловые пушки, воздушно тепловые завесы, воздушные завесы, электрические тепловые завесы, водяные тепловые завесы, конвекторы, обогреватели, инфракрасные обогреватели, тропик, тепломаш, frico, ballu, 2vv, euroheat, korf, remak, olefini" />
+    <meta name="description" content="AIRONIC.RU - продажа, проектирование и монтаж теплового оборудования: тепловые завесы, конвекторы, тепловые пушки, инфракрасные обогреватели" />
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1251" />
+    <meta content="no-cache" http-equiv="Pragma" />
+    <meta name="verify-v1" content="HAvZSvZeuBDoji5QCG1nxuq4cDRxWq56XKNvG2od+WY=" >
+    <meta name='yandex-verification' content='679596d4c9d17940' />
+    <%--<meta name="robots" content="index,follow" />
+<meta name="rating" content="general" />
+<meta name="distribution" content="global" />--%>
+
+    <script type="text/javascript" src="JS/Common.js"></script>
+
+    <!--[if lt IE 7]>
+<![if gte IE 5.5]>
+<script type="text/javascript" src="JS/fixpng.js"></script>
+<style type="text/css">
+.iePNG, img { filter:expression(fixPNG(this)); }
+.iePNG A { position: relative; }
+</style>
+<![endif]>
+<![endif]-->
+</head>
+<body>
+    <form id="Main" runat="server">
+    <table cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td>
+                            <div id="header">
+                                <div id="headerlogo">
+                                    <a title="AIRONIC.RU тепловое оборудование" href="http://www.aironic.ru/">
+                                        <asp:Image runat="server" SkinID="HeaderLogo" /></a>
+                                </div>
+                                <div id="headerright">
+                                    <mb:MainMenu ID="MainMenu" runat="server" />
+                                    <div id="header_">
+                                        <div class="header_tel">
+                                            (495) 730-78-18</div>
+                                        <mb:Search ID="Search" runat="server" />
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="height: 900px">
+                        <td>
+                            <table cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td class="leftcol">
+                                        <mb:DepartmentMenuLevel ID="DepartmentMenuLevelControl" runat="server" RepeatColumns="1" MainReferencePage="BrowseProducts.aspx" ReferencePage="BrowseProducts.aspx" DepartmentID="5"/>
+                                        <%--<mb:DepartmentMenu ID="DepartmentMenu" runat="server" HeaderText="Каталог" />--%>
+                                        <%--<mb:ManufacturerBox ID="ManufacturerBox" runat="server" />--%>
+                                        <%--<mb:PollBox ID="pollGeneric" runat="server" ShowArchiveLink="false" ShowHeader="true"
+                                    HeaderText="Ваше мнение" />--%>
+                                    </td>
+                                    <td style="width: 79%">
+<%--                                        <asp:ContentPlaceHolder ID="AdvertBox" runat="server">
+                                        </asp:ContentPlaceHolder>--%>
+                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td class="centercol">
+                                                    <div>
+                                                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                                        </asp:ContentPlaceHolder>
+                                                    </div>
+                                                </td>
+                                                <td class="rightcol">
+                                                    <mb:ShoppingCartBox ID="ShoppingcartBox" runat="server" />
+                                                    <mb:NewsletterBox runat="server" ID="NewsletterBox" />
+                                                    <mb:ArticleBox runat="server" ID="ArticleBox" />
+                                                    <%--<mb:ProductSalesBox ID="ProductSalesBox" runat="server"/>--%>
+                                                    <%--<mb:ActionBox ID="ActionBox" runat="server"/>--%>
+                                                    <%--<mb:ContactFormBox ID="ContactForm" runat="server" DefaultName="UserMind" DefaultEmail="info@С-СLIMATE.RU" DefaultSubject="Мнение посетителя" />--%>
+                                                    <%--<mb:NominationBox ID="NominationBox" runat="server"/>--%>
+                                                    <%--<mb:AwardsBox ID="AwardsBox" runat="server" />--%>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="footer">
+                                <div class="headerborder">
+                                </div>
+                                <div id="footerleft">
+                                    © <a title="AIRONIC.RU" href="http://www.aironic.ru">AIRONIC.RU</a> 2003 - 2009, (495)
+                                    730-78-18, <a href="mailto:info@aironic.ru">info@aironic.ru</a>
+                                </div>
+                                <div class="footermenu">
+                                    <a href="./Partners.aspx">Партнеры</a> <a href="./Dealer.aspx">Дилерам</a> <a href="./Vacancy.aspx">
+                                        Вакансии</a> <a href="./SiteMap.aspx">Карта сайта</a>
+                                </div>
+                                <noindex>
+                            <div id="footerbanner" style="left:350px;">
+<!-- begin of Top100 logo -->
+<a href="http://top100.rambler.ru/home?id=1803255" target="_blank"><img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100" width="88" height="31" border="0" /></a>
+<!-- end of Top100 logo -->         
+                            </div>            
+<div id="footerbanner" style="left:450px;">
+<!--LiveInternet counter--><script type="text/javascript"><!--
+                               document.write("<a href='http://www.liveinternet.ru/click' " +
+"target=_blank><img src='http://counter.yadro.ru/hit?t52.10;r" +
+escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+";" + Math.random() +
+"' alt='' title='LiveInternet: показано число просмотров и" +
+" посетителей за 24 часа' " +
+"border='0' width='88' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+</div> 
+<div id="footerbanner" style="left:550px;">
+<!-- Start of banner PremiaRuneta.ru --> <a href='http://www.PremiaRuneta.ru/' target='_blank'><img src='http://www.PremiaRuneta.ru/upload/images/icon/2009/uchastnik2009_88x31.gif' alt='Участник Премии Рунета 2009' width='88' height='31' border='0'></a> <!-- End of banner PremiaRuneta.ru --> 
+</div>
+                        </noindex>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </form>
+    <!-- begin of Top100 code -->
+
+    <script id="top100Counter" type="text/javascript" src="http://counter.rambler.ru/top100.jcn?1803255"></script>
+
+    <noscript>
+        <img src="http://counter.rambler.ru/top100.cnt?1803255" alt="" width="1" height="1"
+            border="0" /></noscript>
+    <!-- end of Top100 code -->
+</body>
+</html>

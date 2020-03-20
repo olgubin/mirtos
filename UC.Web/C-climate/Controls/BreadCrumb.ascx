@@ -1,0 +1,1 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="BreadCrumb.ascx.cs" Inherits="UC.UI.Controls.BreadCrumb" %><%@ Import Namespace="UC.SEOHelper"%><%@ Import Namespace="UC.UI" %><div class="breadcrumb"><asp:Panel runat="server" ID="pnlBreadCrumb" Width="100%"><asp:HyperLink ID="_hlnkMain" runat="server" EnableViewState="false" Text="Главная"/></asp:Panel></div>

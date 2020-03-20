@@ -1,0 +1,90 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="UC.UI.AdminMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<%@ Register Src="~/Controls/LoginView.ascx" TagName="LoginView" TagPrefix="mb" %>
+<%@ Register Src="~/Admin/Controls/AdminMenu.ascx" TagName="AdminMenu" TagPrefix="mb" %>
+<%@ Register Src="~/Controls/Search.ascx" TagName="Search" TagPrefix="mb" %>
+<%@ Register Src="~/Controls/MainMenu.ascx" TagName="MainMenu" TagPrefix="mb" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd"> -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Кондиционеры, вентиляция, тепловые завесы, сплит системы</title>
+    <link rel="shortcut icon" href="~/images/favicon.ico" />
+    <meta name="keywords" lang="ru" content="кондиционеры,вентиляция,воздуховоды,завесы,сплит,сплит система,кондиционирование,daikin,системы вентиляции,тепловые завесы,установка кондиционеров,daikin кондиционеры,монтаж кондиционеров,климатическое оборудование" />
+    <meta name="description" content="Компания ООО «Сити-Климат» специализируется на проектировании, монтаже и поставке оборудования для систем вентиляции и кондиционирования" />
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1251" />
+    <meta content="no-cache" http-equiv="Pragma" />
+</head>
+<body>
+    <form id="Main" runat="server">
+    <table width="100%">
+        <tr>
+        <td id="leftfon">
+        </td>
+        <td>
+            <table cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td>
+                    <div id="header">
+                        <div id="headerlogo">
+                            <a title="AIRONIC.RU тепловое оборудование" href="http://www.aironic.ru/">
+                                <asp:Image runat="server" SkinID="HeaderLogo" /></a>
+                        </div>
+                        <div id="headerright">
+                            <mb:MainMenu ID="MainMenu" runat="server" />
+                            <div id="header_">
+                                <div class="header_tel">(495) 777-77-77</div>
+                                <mb:Search ID="Search" runat="server" />
+                            </div>
+                        </div>
+                    </div>   
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td class="leftcol">
+                                <mb:AdminMenu ID="adminmenu" runat="server" HeaderText="Администрирование" />
+                            </td>
+                            <td style="width:79%">
+                                <asp:ContentPlaceHolder ID="AdvertBox" runat="server">
+                                </asp:ContentPlaceHolder>                            
+                                <table width="100%">
+                                    <tr>
+                                        <td class="centercol" style="width:100%">
+                                            <div>
+                                                <asp:ScriptManager runat="Server" EnableScriptGlobalization="true"
+                                                    EnableScriptLocalization="true" ID="ScriptManager1" />                                            
+                                                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                                </asp:ContentPlaceHolder>
+                                            </div>                                        
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="footer">
+                        <div class="headerborder">
+                        </div>
+                        <div id="footerleft">
+                            © <a title="AIRONIC.RU" href="http://www.aironic.ru">AIRONIC.RU</a>
+                            2009, (495) 777-77-77, <a href="mailto:info@aironic.ru">info@aironic.ru</a>
+                        </div>
+                    </div>
+                </td>            
+            </tr>
+            </table>
+        </td>
+        </tr>
+    </table>    
+
+    </form>
+</body>
+</html>

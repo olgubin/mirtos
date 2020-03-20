@@ -1,0 +1,272 @@
+﻿.box
+{
+    padding-bottom:5px;
+}
+
+.boxtitle
+{
+    font-family:Tahoma;
+    color:White;
+    font-size:1.30em;
+    text-align:left;
+    height:23px;
+    background-color: #9aaab1;
+    padding:4px 0px 0px 15px;
+}
+
+.boxcontent
+{
+    position:relative;
+    font-family: Tahoma;
+    font-size: 1.20em;
+    padding:7px 7px 7px 7px;
+    background-color:Transparent;
+    overflow:hidden;
+    height:100%;/*ie fix*/
+}
+
+.boxcontent table td
+{
+    padding:3px 0px 3px 9px;
+}
+
+.boxcontent a
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+.boxcontent a:hover
+{
+    color: #9aaab1;
+}
+
+
+.boxcontent .menuitem
+{
+    background: transparent url(images/menu_p.gif) no-repeat 0px 5px;
+    padding-left:7px;
+}
+
+.transparent 
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:1000px;
+    height:1000px;
+    background-color:#aebec5;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=17); 
+    -moz-opacity: 0.17; 
+    -khtml-opacity: 0.17; 
+    opacity: 0.17;
+    z-index:-100;
+}
+
+#all
+{
+    color: #9aaab1;
+    width:97%;
+    text-align:right;
+    padding-top: 3px;
+    font-size:11px;
+}
+
+#all a
+{
+    color: #9aaab1;
+    text-decoration: none;
+    font-family: Tahoma,Verdana,Arial,Sans-serif;
+}
+
+#all a:hover
+{
+    color: #9aaab1;
+}
+
+
+.departmentmenu
+{
+    padding:9px 0px 9px 7px;
+}
+
+.awards
+{
+    color:#777777;
+    font-family:Tahoma;
+    font-size:11px;
+    padding-right:3px;
+}
+
+.awards a
+{
+    color:#393738;
+    font-weight:bold;
+}
+
+.awards a:hover
+{
+    color:#393738;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.article
+{
+    color:#777777;
+    font-family:Tahoma;
+    font-size:11px;
+}
+
+.news
+{
+    color:#777777;
+    font-family:Tahoma;
+    font-size:11px;
+}
+
+.pollbox
+{
+    font-size: 11px;
+    padding-bottom: 7px;
+}
+
+.vote
+{
+    padding:0px 0px 7px 7px;
+    font-size:0.7em;
+}
+
+.pollquestion
+{
+    color:Black;
+    font-weight:bold;
+    font-size:0.9em;
+    text-align:left;
+    padding:7px 0px 17px 7px; 
+}
+
+.polloptions
+{
+    font-size:0.8em;
+    padding-left:17px;
+    padding-bottom:17px;
+}
+
+.pollbar
+{
+    background-color: #80b332;
+    font-size: 4px;
+}
+
+
+.contactformboxcontent
+{
+    padding: 5px;
+    border: 0pt none;
+    font-size: 11px;
+    font-family: Tahoma;
+    color: #777777;
+    text-align: justify;
+}
+
+.contactformboxcontent textarea
+{
+    font-size: 11px;
+    font-family: Tahoma;        
+}
+
+.contactformboxcontent td
+{
+    padding-bottom:7px;
+}
+
+.contactformboxcontent td a
+{
+    color:#393738;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.contactformboxcontent td a:hover
+{
+    text-decoration:underline;
+}
+
+.menu
+{
+    font-family: Tahoma;
+    font-size: 11px;
+    padding:12px;
+}
+
+.menu table
+{
+    width:100%;
+}
+
+.menu table th
+{
+    color:Black;
+    font-size:1em;
+    text-align:left;
+    padding:5px 0px 7px 15px; 
+    background: url(images/menu.gif) no-repeat center left !important;
+}
+
+.menu table td
+{
+    padding:5px 0px 5px 15px;
+}
+
+.menu a
+{
+    color: #393738;
+    text-decoration: none;
+}
+
+.menu a:hover
+{
+    color: #9aaab1;
+}
+
+.filterBox
+{
+    position:relative;
+    font-family: Tahoma;
+    font-size: 1.0em;
+    padding-bottom:7px;
+    background-color:Transparent;
+    overflow:hidden;
+    height:100%;/*ie fix*/
+}
+
+.fi
+{
+    padding-left:9px;
+}
+
+.afi
+{
+    padding-left:9px;
+    vertical-align:top;  
+    color: #9AAAB1;
+}
+
+.filter
+{
+    padding:5px;
+}
+
+.filter div
+{
+    padding:3px 0px;
+}
+
+.filtertitle
+{
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left:5px;
+}

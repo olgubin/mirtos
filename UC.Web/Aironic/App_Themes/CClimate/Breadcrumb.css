@@ -1,0 +1,26 @@
+﻿.breadcrumb
+{
+    font-family:Tahoma;
+    color:White;
+    font-size:1.30em;
+    text-align:left;
+    height:23px;
+    background-color: #d7c5ab;
+    padding:4px 0px 0px 15px;
+}
+
+.breadcrumb a
+{
+    color:White;    
+    text-decoration: underline;
+}
+
+.breadcrumb a:hover
+{
+    text-decoration: none;
+}
+
+.breadcrumb th
+{
+    vertical-align:middle;
+}

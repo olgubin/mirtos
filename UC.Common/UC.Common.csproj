@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FDB49338-42EE-4F45-BFB8-948950802C90}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UC.Common</RootNamespace>
+    <AssemblyName>UC.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasePage.cs" />
+    <Compile Include="BaseWebPart.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLL\Articles\Article.cs" />
+    <Compile Include="BLL\Articles\BaseArticle.cs" />
+    <Compile Include="BLL\Articles\Category.cs" />
+    <Compile Include="BLL\Articles\Comment.cs" />
+    <Compile Include="BLL\Forums\BaseForum.cs" />
+    <Compile Include="BLL\Forums\Forum.cs" />
+    <Compile Include="BLL\Forums\Post.cs" />
+    <Compile Include="BLL\Images\Images.cs" />
+    <Compile Include="BLL\Newsletters\Newsletter.cs" />
+    <Compile Include="BLL\Parsing\BaseParsing.cs" />
+    <Compile Include="BLL\Parsing\ParsingCatalog.cs" />
+    <Compile Include="BLL\Parsing\ParsingProduct.cs" />
+    <Compile Include="BLL\Polls\BasePoll.cs" />
+    <Compile Include="BLL\Polls\Option.cs" />
+    <Compile Include="BLL\Polls\Poll.cs" />
+    <Compile Include="BLL\Portfolio\EntityCollection\PortfolioCollection.cs" />
+    <Compile Include="BLL\Portfolio\EntityManager\PortfolioManager.cs" />
+    <Compile Include="BLL\Portfolio\Entity\Portfolio.cs" />
+    <Compile Include="BLL\Search\BaseSearch.cs" />
+    <Compile Include="BLL\Search\SearchRequest.cs" />
+    <Compile Include="BLL\Store\EntityCollection\ProductTypeCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\CurrencyCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\FilterManufacturerCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\DepartmentTemplateCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\FilterCriteriaProductCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\FilterCriteriaCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\FilterDepartmentCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\FilterCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\ProductSearchedCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\ProductCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\ProductDepartmentMappingCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\ProductFeaturedCollection.cs" />
+    <Compile Include="BLL\Store\EntityCollection\ProductRelatedCollection.cs" />
+    <Compile Include="BLL\Store\EntityManager\ProductTypeManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\CurrencyManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\FilterManufacturerManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\DepartmentTemplateManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\FilterCriteriaProductManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\FilterDepartmentManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\FilterCriteriaManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\FilterManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\ProductSearchedManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\ProductManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\ProductDepartmentMappingManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\ProductFeaturedManager.cs" />
+    <Compile Include="BLL\Store\EntityManager\ManufacturerManager.cs" />
+    <Compile Include="BLL\Store\EntityCollection\ManufacturerCollection.cs" />
+    <Compile Include="BLL\Store\EntityManager\ProductRelatedManager.cs" />
+    <Compile Include="BLL\Store\Entity\ProductType.cs" />
+    <Compile Include="BLL\Store\Entity\Currency.cs" />
+    <Compile Include="BLL\Store\Entity\FilterManufacturer.cs" />
+    <Compile Include="BLL\Store\Entity\DepartmentTemplate.cs" />
+    <Compile Include="BLL\Store\Entity\FilterCriteriaProduct.cs" />
+    <Compile Include="BLL\Store\Entity\FilterDepartment.cs" />
+    <Compile Include="BLL\Store\Entity\FilterCriteria.cs" />
+    <Compile Include="BLL\Store\Entity\Filter.cs" />
+    <Compile Include="BLL\Store\Entity\ProductSearched.cs" />
+    <Compile Include="BLL\Store\Entity\Product.cs" />
+    <Compile Include="BLL\Store\Entity\ProductDepartmentMapping.cs" />
+    <Compile Include="BLL\Store\Entity\ProductFeatured.cs" />
+    <Compile Include="BLL\Store\Entity\ProductAttribute.cs" />
+    <Compile Include="BLL\Store\EntityCollection\ProductAttributeCollection.cs" />
+    <Compile Include="BLL\Store\EntityManager\ProductAttributeManager.cs" />
+    <Compile Include="BLL\Store\BaseStore.cs" />
+    <Compile Include="BLL\Store\EntityManager\DepartmentManager.cs" />
+    <Compile Include="BLL\Store\EntityCollection\DepartmentCollection.cs" />
+    <Compile Include="BLL\Store\Entity\Department.cs" />
+    <Compile Include="BLL\Store\Entity\ProductRelated.cs" />
+    <Compile Include="BLL\Store\Enums.cs" />
+    <Compile Include="BLL\Store\Entity\Manufacturer.cs" />
+    <Compile Include="BLL\Store\Order.cs" />
+    <Compile Include="BLL\Store\OrderItem.cs" />
+    <Compile Include="BLL\Store\OrderStatus.cs" />
+    <Compile Include="BLL\Store\Entity\ProductAttributeMapping.cs" />
+    <Compile Include="BLL\Store\EntityCollection\ProductAttributeMappingCollection.cs" />
+    <Compile Include="BLL\Store\EntityManager\ProductAttributeMappingManager.cs" />
+    <Compile Include="BLL\Store\ShippingMethod.cs" />
+    <Compile Include="BLL\Store\ShoppingCart.cs" />
+    <Compile Include="DAL\ArticleDetails.cs" />
+    <Compile Include="DAL\ArticlesProvider.cs" />
+    <Compile Include="DAL\CategoryDetails.cs" />
+    <Compile Include="DAL\CommentDetails.cs" />
+    <Compile Include="DAL\ForumDetails.cs" />
+    <Compile Include="DAL\ForumsProvider.cs" />
+    <Compile Include="DAL\FrameworkProvider.cs" />
+    <Compile Include="DAL\ManufacturerDetails.cs" />
+    <Compile Include="DAL\NewsletterDetails.cs" />
+    <Compile Include="DAL\NewslettersProvider.cs" />
+    <Compile Include="DAL\OrderDetails.cs" />
+    <Compile Include="DAL\OrderItemDetails.cs" />
+    <Compile Include="DAL\OrderStatusDetails.cs" />
+    <Compile Include="DAL\ParsingCatalogDetails.cs" />
+    <Compile Include="DAL\ParsingClient\ViraParsingProvider.cs" />
+    <Compile Include="DAL\ParsingDepartmentDetails.cs" />
+    <Compile Include="DAL\ParsingProductDetails.cs" />
+    <Compile Include="DAL\ParsingProvider.cs" />
+    <Compile Include="DAL\ParsingSiteProvider.cs" />
+    <Compile Include="DAL\PollDetails.cs" />
+    <Compile Include="DAL\PollOptionDetails.cs" />
+    <Compile Include="DAL\PollsProvider.cs" />
+    <Compile Include="DAL\Portfolio\SqlPortfolioProvider.cs" />
+    <Compile Include="DAL\PostDetails.cs" />
+    <Compile Include="DAL\ProductDetails.cs" />
+    <Compile Include="DAL\SearchProvider.cs" />
+    <Compile Include="DAL\SearchRequestDetails.cs" />
+    <Compile Include="DAL\ShippingMethodDetails.cs" />
+    <Compile Include="DAL\SiteProvider.cs" />
+    <Compile Include="DAL\SqlClient\SqlArticlesProvider.cs" />
+    <Compile Include="DAL\SqlClient\SqlForumsProvider.cs" />
+    <Compile Include="DAL\SqlClient\SqlFrameworkProvider.cs" />
+    <Compile Include="DAL\SqlClient\SqlMembershipProviderEx.cs" />
+    <Compile Include="DAL\SqlClient\SqlNewslettersProvider.cs" />
+    <Compile Include="DAL\SqlClient\SqlParsingProvider.cs" />
+    <Compile Include="DAL\SqlClient\SqlPollsProvider.cs" />
+    <Compile Include="DAL\SqlClient\SqlSearchProvider.cs" />
+    <Compile Include="DAL\SqlClient\SqlStoreProvider.cs" />
+    <Compile Include="DAL\StoreProvider.cs" />
+    <Compile Include="DAL\Store\SqlProductTypeProvider.cs" />
+    <Compile Include="DAL\Store\SqlCurrencyProvider.cs" />
+    <Compile Include="DAL\Store\SqlFilterManufacturerProvider.cs" />
+    <Compile Include="DAL\Store\SqlDepartmentTemplateProvider.cs" />
+    <Compile Include="DAL\Store\SqlFilterCriteriaProductProvider.cs" />
+    <Compile Include="DAL\Store\SqlFilterDepartmentProvider.cs" />
+    <Compile Include="DAL\Store\SqlFilterCriteriaProvider.cs" />
+    <Compile Include="DAL\Store\SqlFilterProvider.cs" />
+    <Compile Include="DAL\Store\SqlProductSearchedProvider.cs" />
+    <Compile Include="DAL\Store\SqlProductsProvider.cs" />
+    <Compile Include="DAL\Store\SqlProductDepartmentMappingProvider.cs" />
+    <Compile Include="DAL\Store\SqlProductFeaturedProvider.cs" />
+    <Compile Include="DAL\Store\SqlProductRelatedProvider.cs" />
+    <Compile Include="DAL\Store\SqlManufacturersProvider.cs" />
+    <Compile Include="DAL\Store\SqlProductAttributeProvider.cs" />
+    <Compile Include="DAL\Store\SqlDepartmentsProvider.cs" />
+    <Compile Include="DAL\Store\SqlProductAttributeMappingProvider.cs" />
+    <Compile Include="HttpModules.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UC.Core\UC.Core.csproj">
+      <Project>{FB467F5F-07E6-4AD6-B5D7-C5277547F776}</Project>
+      <Name>UC.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UC.CustomEvents\UC.CustomEvents.csproj">
+      <Project>{64CA7B72-7523-4AEB-94E8-7A984061E35B}</Project>
+      <Name>UC.CustomEvents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UC.HtmlParser\UC.HtmlParser.csproj">
+      <Project>{5C611CCC-540B-432F-B1FE-0DB47119DEBD}</Project>
+      <Name>UC.HtmlParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UC.ImageQuantizer\UC.ImageQuantizer.csproj">
+      <Project>{77BC3142-80AA-4909-8D58-D88A2C9EF388}</Project>
+      <Name>UC.ImageQuantizer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,157 @@
+﻿.advtop_left, .advtop_right
+{
+    top: 0px;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 25px;
+}
+
+.advtop_left
+{
+    left: 0px;
+    background-image: url(images/advt_l.gif);
+}
+
+.advtop_right
+{
+    right: 0px;
+    background-image: url(images/advt_r.gif);
+}
+
+.advtop_middle
+{
+    height: 25px;
+    background-image: url(images/advt_s.gif);
+    background-repeat: repeat-x;
+}
+
+.advbottom
+{
+    font-size: 0;
+    position: relative;
+}
+
+.advbottom_left, .advbottom_right
+{
+    top: 0px;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 12px;
+}
+
+.advbottom_left
+{
+    left: 0px;
+    background-image: url(images/advb_l.gif);
+}
+
+.advbottom_right
+{
+    right: 0px;
+    background-image: url(images/advb_r.gif);
+}
+
+.advbottom_middle
+{
+    height: 12px;
+    background-image: url(images/advb_s.gif);
+    background-repeat: repeat-x;
+}
+
+.advmiddle
+{
+    position:relative;
+}
+
+.advmiddle table
+{
+    width: 100%;
+    height:100%;
+}
+
+.advmiddle_middle
+{
+    height: 270px;
+}
+
+.advmiddle_left, .advmiddle_right
+{
+    top: 0px;
+    position: absolute;
+    background-repeat: repeat-y;
+    width: 4px;
+    height: 270px;
+}
+
+.advmiddle_left
+{
+    left: 0px;
+    background-image: url(images/advm_l.gif);
+}
+
+.advmiddle_right
+{
+    right:0px;
+    background-image: url(images/advm_r.gif);
+}
+
+
+
+
+
+
+
+.advtitle
+{
+    color: White;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 7px;
+    font-family: Arial;
+    text-align:center;
+}
+
+.advname
+{
+    text-align: center;
+    padding:0px 5px 0px 5px;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-size: 12px;
+    color: #777777;
+}
+
+.advname a
+{
+    color: #777777;
+    text-decoration: none;
+}
+
+.advname a:hover
+{
+    text-decoration: underline;
+}
+
+.advprice
+{
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    color: #e83b68;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 7px;
+    text-align: center;
+}
+
+.advprice s
+{
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.advimage
+{
+    text-align: center; 
+    vertical-align: middle;
+    height:197px;
+}

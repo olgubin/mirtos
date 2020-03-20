@@ -1,0 +1,46 @@
+﻿#header
+{
+    height: 83px;
+    min-width: 1070px;
+    position: relative;
+}
+
+/*For IE*/
+* html #header
+{
+	width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1071?'1070px':'100%');  
+}
+
+#headerlogo
+{
+    padding: 12px 0px 0px 17px;
+    background-color: Transparent;
+    float: left;
+    text-align: center;
+}
+
+#headerright
+{
+    height:83px;
+    margin-left:257px;
+}
+
+#header_
+{
+    padding-top:7px;
+}
+
+.header_tel
+{
+    float:left;
+    padding:3px 0px 0px 37px;
+    height:29px;
+    font-family:Tahoma;
+    /*font-size:1.37em;*/
+    font-size:17px;
+    font-weight:bold;
+    color:#8e0000;
+    background: transparent url(images/tel.gif) no-repeat left top;
+    width:177px;
+}
+

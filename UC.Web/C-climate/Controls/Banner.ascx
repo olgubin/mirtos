@@ -1,0 +1,1 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Banner.ascx.cs" Inherits="UC.UI.Controls.Banner" %><asp:AdRotator ID="AdRotator" runat="server" AdvertisementFile='<%# AdvertisementFile %>' KeywordFilter='<%# KeywordFilter %>' />

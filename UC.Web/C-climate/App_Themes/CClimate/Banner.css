@@ -1,0 +1,12 @@
+﻿.bannercenter
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.bannerheader
+{
+    float:right;
+}

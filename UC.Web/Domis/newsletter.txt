@@ -1,0 +1,9 @@
+<tr>
+<td width="50px" valign="top" style="font-family: Tahoma,Verdana,Arial,Sans-serif;font-size:10px;color: #9aaab1">
+{1}
+</td>
+<td align="left">
+<a style="color: #393738;text-decoration:none;font-family: Tahoma,Verdana,Arial,Sans-serif;font-size:11px;" href="http://www.domis.ru/Newsletter.aspx?ID={0}">{2}</a><br />
+<a style="color: #777777;font-family: Tahoma;font-size: 11px;text-decoration: none;" href="http://www.domis.ru/Newsletter.aspx?ID={0}">{3}</a>
+</td>
+</tr>

@@ -1,0 +1,309 @@
+﻿.productdescription
+{
+    overflow: hidden;
+    color: #393738;
+    font-family: Tahoma;
+    font-size: 11px;
+    text-decoration: none;    
+}
+
+.productdescription a
+{
+    color: #777777;
+    font-family: Tahoma;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.productdescription a:hover
+{
+    text-decoration: underline;
+}
+
+.productdescription th
+{
+    font-weight:normal;
+    text-align:left;
+}
+
+.productdescription td
+{
+    color:#393738;
+}
+
+.discount
+{
+    width: 97px;
+    height: 35px;
+    float: left;
+    background: url(images/discount_big.gif) no-repeat top left !important;
+}
+
+
+
+
+
+
+
+
+.departmentimage
+{
+    /*background: transparent url(images/dep_back.png) no-repeat scroll left center;*/
+    overflow: hidden;
+    width: 107px;
+    height: 107px;
+}
+
+.departmenttitle
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top:7px;
+}
+
+.departmenttitle a
+{
+    color: #393738;
+    text-decoration: none;
+}
+
+.departmenttitle a:hover
+{
+    text-decoration: underline;
+}
+
+.departmentdescription a
+{
+    color: #777777;
+    font-family: Tahoma;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.departmentdescription a:hover
+{
+    text-decoration: underline;
+}
+
+.shortdescription
+{
+    padding:7px 0px 23px 0px;
+}
+
+.product, .productalt
+{
+    border-bottom-width: 1px;
+    border-bottom-color: #e4e4e4;
+    border-bottom-style: solid;
+    overflow: hidden;
+    width: 50%;
+    padding: 3px;
+}
+
+.productalt
+{
+    border-left-color: #e4e4e4;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+.product input, .productalt input
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.producttitle
+{
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.producttitle a
+{
+    color: #393738;
+    text-decoration: none;
+}
+
+.producttitle a:hover
+{
+    text-decoration: underline;
+}
+
+.productimage
+{
+    overflow: hidden;
+    padding: 3px 0px 0px 2px;
+}
+
+.productprice
+{
+    text-align: center;
+    color: #de3b3a;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.productprice s
+{
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.productprice td
+{
+    vertical-align: middle;
+}
+
+.productbuy
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.productbuy input
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.addToCart
+{
+    width: 100%;
+    height: 20px;
+}
+
+.rait
+{
+    width:100%;
+    text-align:center;
+}
+
+.s_prodprice table
+{
+    float:right;
+}
+
+.s_prodprice th
+{
+    text-align:center;
+    color: #de3b3a;
+    font-weight: bold;
+    font-size: 12px;    
+}
+
+.s_prodprice s
+{
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.s_prodprice td
+{
+    width:137px;
+    text-align:right;
+}
+
+.prodattr
+{
+    padding-top: 7px;
+    color: #393738;
+}
+
+.prodattr th
+{
+    vertical-align:top;
+    font-weight:normal;
+    text-align:left;
+}
+
+.prodattr td
+{
+    font-weight:bold;
+    text-align:left;    
+}
+
+.description
+{
+    text-align:justify;
+}
+
+.description img
+{
+    clear:left;
+    float:left;
+    padding-right:7px;
+    padding-bottom:7px;
+}
+
+.description h3
+{
+    padding-left: 25px;
+    background: url(images/krizik.gif) no-repeat 0px 10px;
+}
+
+.description h1, h3
+{
+    margin:0;
+    padding:10px 0;
+}
+
+.des_table th
+{
+    background-color:#132f69;
+    color:White;
+    font-weight:bold;
+    padding:3px;
+    border: solid 1px white; 
+    height:17px;
+}
+
+.des_table td
+{
+    height:17px;
+    padding-left:3px;
+    vertical-align:middle;
+}
+
+.grid table
+{
+    font-size:11px;
+    font-family:Verdana;
+}
+
+.grid table th
+{
+    background-color:#132f69;
+    color:White;
+    font-weight:bold;
+    height:30px;
+    border: solid 1px white;
+    padding:3px;
+}
+
+.grid table td
+{
+    vertical-align:middle;
+    border: solid 1px white;
+    padding:3px;
+}
+
+.grid table td input
+{
+    text-align:center;
+    font-size:11px;
+}
+
+.rowaltcolor
+{
+    background-color:#f1f4f5 !important;
+}
+
+.rowcolor
+{
+    background-color:#ffffff !important;
+}

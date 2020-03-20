@@ -1,0 +1,65 @@
+﻿.articlebox
+{
+    background-color: #fefef0;
+    color: #b45d16;
+    border: dashed 1px #995117;
+    padding: 6px 6px 6px 6px;
+    font-size: smaller;
+}
+
+#articletitle
+{
+    font-family: Tahoma,Verdana,Arial,Sans-serif;
+    padding-bottom: 5px;
+    color: #393738;
+    text-decoration: none;  
+}
+
+#articletitle a
+{
+    color: #393738;
+    text-decoration: none;
+}
+
+#articletitle a:hover
+{
+    color: #777777;
+    text-decoration: underline;
+}
+
+.articleabstract
+{
+    padding-top: 6px;
+}
+
+.comment
+{
+    padding: 4px 0px 4px 0px;
+    font-size: smaller;
+}
+
+#article
+{
+    padding: 0px 0px 5px 0px;
+}
+
+#article img
+{
+    float: left;
+    padding: 0px 5px 0px 0px;
+}
+
+#article div
+{
+    padding-left: 20px;
+}
+
+#article a
+{
+    color: #393738;
+}
+
+#article a:hover
+{
+    color: #777777;
+}

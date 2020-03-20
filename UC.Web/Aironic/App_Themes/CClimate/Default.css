@@ -1,0 +1,444 @@
+/*
+Темно серый (текст): #4d4948
+Темно синий: #8e0000
+Светло-синий (титул боксов): #d7c5ab
+Фон под прозрачные блоки: #d8c6ac
+Фон голубой непрозрачный (меню): #c5b6a8
+*/
+
+
+body
+{
+    margin: 0px;
+    font-family: Verdana, Arial, Serif;
+    font-size: 11px;
+    background-color:Transparent;
+}
+
+div
+{
+    background-color:Transparent;
+}
+
+
+a img
+{
+    border: 0pt none;
+}
+
+img[alt][title]
+{
+    color: #d7c5ab;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td
+{
+    vertical-align: top;
+}
+
+td.fieldname
+{
+    text-align: left;
+    font-size: 11px;
+    width: 110px;
+}
+
+h1
+{
+    clear:both;
+    margin:0px;
+    color:#8e0000;
+    font-family: Tahoma;
+    font-size:1.0em;
+}    
+
+h2
+{
+    color:#d7c5ab;
+    font-size:17px;
+    font-weight:bold;
+}
+
+hr
+{
+    color: #80b331;
+}
+
+h3
+{
+    clear:both;
+    color: #8e0000;
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+p
+{
+    text-align: justify;
+}
+
+select
+{
+    font-size: 11px;
+    font-family: Verdana, Arial, Serif;
+}
+
+input[type="text"],input[type="password"],textarea
+{
+    border:1px solid #7F9DB9;
+    font-family:Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11px;    
+}
+
+#container
+{
+    background-color: white;
+    min-width: 1070px;
+    position: relative;
+}
+
+/*For IE*/
+* html #container
+{
+	width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1071?'1070px':'100%');  
+}
+
+#container2
+{
+    background-color: white;
+    margin-right: 233px;
+}
+
+#leftfon
+{
+    width:48px;
+    background-image:url(images/left.gif);      
+    background-repeat:repeat-y;
+}
+
+.leftcol, .rightcol
+{
+    width:21%;
+    padding:0px 7px 7px 7px;
+}
+
+.centercol
+{
+    width:58%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.highlight
+{
+    background-color: #fffee7;
+    color: #393738;
+}
+
+.highlightcity
+{
+    background-color: #df2e05;
+}
+
+.highlightstate
+{
+    background-color: #f4c977;
+}
+
+.highlightcountry
+{
+    background-color: #818689;
+}
+
+
+
+.progressbarcontainer
+{
+    width: 98%;
+    height: 15px;
+    border: solid 1px black;
+    padding: 1px;
+}
+
+.progressbar
+{
+    width: 0px;
+    background-color: Red;
+    height: 15px;
+}
+
+#newsletter
+{
+    padding-bottom: 5px;
+    font-family: Tahoma,Verdana,Arial,Sans-serif;
+}
+
+#newsletter img
+{
+    float: left;
+    padding: 0px 5px 0px 0px;
+}
+
+#newsletter div
+{
+    padding-left: 20px;
+}
+
+#newsletter a
+{
+    color: #393738;
+    text-decoration: none;
+}
+
+#newsletter a:hover
+{
+    color: #777777;
+    text-decoration: underline;
+}
+
+.newsletterboxcontent
+{
+    padding: 6px;
+}
+
+.postinfo
+{
+    background-color: #f9eaa6;
+    font-weight: bold;
+    text-align: center;
+}
+
+.posttitle
+{
+    padding: 3px;
+    margin-bottom: 10px;
+    background-color: #f09d35;
+    color: black;
+    font-weight: bold;
+}
+
+.postbody
+{
+    padding: 3px;
+}
+
+.counters
+{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    position: relative;
+    color: White;
+}
+
+.counters a
+{
+    color: White;
+}
+
+#onpicture
+{
+    width: 65px;
+    height: 36px;
+    position: absolute;
+    bottom: 7px;
+    right: 3px;
+}
+
+.onpicture
+{
+    background: url(images/onpicture.png) no-repeat top left !important;
+background-image: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='App_Themes/Stroihoz1/images/onpicture.png');        
+}
+
+input.but
+{
+top:3px;
+height:21px;
+width:70px;    
+right: 3px;
+position:absolute;
+    background-color: #bf7828;
+    border: solid 1px #81511f !important;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+#shipping
+{
+    font-size:11px;
+    font-family:Verdana;        
+    border: solid 1px #BF7828;
+}
+
+#shipping th
+{
+    background-color:#BF7828;
+    color:White;
+    height:37px;
+    font-weight:normal;
+    width:137px;
+}
+
+#shipping td
+{
+    height:30px;
+    text-align:center;
+    border-top: solid 1px #BF7828;
+    border-bottom: solid 1px #BF7828;  
+    vertical-align:middle;
+}
+
+
+
+.presentDIV 
+{
+    display:block;
+}
+
+.hiddenDIV 
+{
+    display:none;
+}
+
+td.fieldcaption
+{
+    padding:5px 10px;
+    border-right:solid 1px white;
+}
+
+td.fieldtext
+{
+    padding:3px;
+    border-right:solid 1px white;
+}
+
+.alltable
+{
+    border-left-width:0px;
+    border-right-width:0px;
+    border-top:solid 1px #e4e4e4;
+    border-bottom:solid 1px #e4e4e4;
+}
+
+.alltable td
+{
+    padding: 3px 0px 3px 7px;
+}
+
+#content
+{
+    padding: 5px;
+}
+
+.sectionsubtitle
+{
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+
+.contenttable td
+{
+    padding:4px;
+}
+
+.authorize
+{
+    background-color: #c5b6a8; 
+    border: solid 1px white; 
+    padding: 7px;
+}
+
+input.enter
+{
+    height:21px;
+    width:70px;    
+    background-color: #d8c6ac;
+    border: solid 1px #d7c5ab !important;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.sorting
+{
+    color: #d7c5ab;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.sorting span
+{
+    color: #393738;
+}
+
+.sorting a
+{
+    color: #d7c5ab;
+    font-weight: bold;
+}
+
+.pagesize a
+{
+    background-color: #d7c5ab;
+    color: White;
+}
+
+.count
+{
+    background-color: #ebebeb;
+    color: #393738;
+    height: 20px;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.paging
+{
+    color: #d7c5ab;
+    font-family: Tahoma;
+    font-size: 11px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.paging a
+{
+    color: #d7c5ab;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.paging a:hover
+{
+    text-decoration: underline;
+}
+
+.paging a.select
+{
+    color: white;
+    background-color: #d7c5ab;
+    padding: 0px 2px 0px 2px;
+}
+
+.labeltitle
+{
+    font-size:1.2em;
+    font-weight:bold;
+    color:#8e0000;
+}

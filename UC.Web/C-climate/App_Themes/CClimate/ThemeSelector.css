@@ -1,0 +1,19 @@
+﻿#themeselector
+{
+    position: absolute;
+    text-align: right;
+    top: 150px;
+    right: 203px;
+    width: 200px;
+    height: 80px;
+    padding: 2px 2px 2px 2px;
+    font-size: 10px;
+    color: White;
+}
+
+#themeselector select
+{
+    color: black;
+    background-color: #e1e1e1;
+    font-size: 10px;
+}

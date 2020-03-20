@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<body>
+<center>
+<table width="600px">
+<tr>
+<td width="181px" >
+<a href="http://www.aironic.ru"><img src="cid:logo" width="181" height="102" border="0px"/></a>
+</td>
+<td width="500px" style="font-family: Tahoma,Verdana,Arial,Sans-serif;font-size:33px;color: #d7c5ab;font-weight:bold;text-align:center">Новости AIRONIC.RU<br />
+</td>
+</tr>
+<tr>
+<td colspan="2" width="600px">
+<a href="http://www.aironic.ru"><img src="cid:baner" border="0px"/></a>
+</td>
+</tr>
+</table>
+<br/>
+<table width="500px">
+{0}
+</table>
+<br />
+<table><tr><td style="border-top:solid 1px #777777; color:#777777;font-size:11px;text-align:center;vertical-align:middle;width:600px;padding-top:7px">Отписаться от рассылки Вы можите<a href="http://www.aironic.ru/EditProfile.aspx">здесь</a></td></tr></table>
+</center>
+</body>
+</html>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DC78575-182C-4381-B2B4-D0235518D9AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UC.Statistics</RootNamespace>
+    <AssemblyName>UC.Statistics</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\BaseStatistics.cs" />
+    <Compile Include="BLL\Bot.cs" />
+    <Compile Include="BLL\Host.cs" />
+    <Compile Include="BLL\Keyword.cs" />
+    <Compile Include="BLL\Page.cs" />
+    <Compile Include="BLL\Request.cs" />
+    <Compile Include="BLL\SearchEngine.cs" />
+    <Compile Include="BLL\Session.cs" />
+    <Compile Include="BLL\Site.cs" />
+    <Compile Include="BLL\StatisticsReport.cs" />
+    <Compile Include="DAL\BotDetails.cs" />
+    <Compile Include="DAL\HostsDetails.cs" />
+    <Compile Include="DAL\KeywordDetails.cs" />
+    <Compile Include="DAL\PageDetails.cs" />
+    <Compile Include="DAL\Reports\ReportPageDetails.cs" />
+    <Compile Include="DAL\Reports\ReportRequestDetails.cs" />
+    <Compile Include="DAL\Reports\ReportSearchDetails.cs" />
+    <Compile Include="DAL\Reports\ReportSiteDetails.cs" />
+    <Compile Include="DAL\RequestDetails.cs" />
+    <Compile Include="DAL\SearchEngineDetails.cs" />
+    <Compile Include="DAL\SessionDetails.cs" />
+    <Compile Include="DAL\SiteDetails.cs" />
+    <Compile Include="DAL\SqlClient\SqlStatisticsProvider.cs" />
+    <Compile Include="DAL\StatisticsDetails.cs" />
+    <Compile Include="DAL\StatisticsProvider.cs" />
+    <Compile Include="HttpModules.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UC.Core\UC.Core.csproj">
+      <Project>{FB467F5F-07E6-4AD6-B5D7-C5277547F776}</Project>
+      <Name>UC.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UC.IpBlocking\UC.IpBlocking.csproj">
+      <Project>{8AE0B1FF-D3C2-4AAE-B0CA-FD2A07D19265}</Project>
+      <Name>UC.IpBlocking</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

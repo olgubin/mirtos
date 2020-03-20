@@ -1,0 +1,40 @@
+<%@ Page Language="C#" MasterPageFile="~/Template.master" AutoEventWireup="true"
+    CodeFile="EditProfile.aspx.cs" Inherits="UC.UI.EditProfile" Culture="auto"
+    UICulture="auto" %>
+<%@ Register Src="Controls/UserProfile.ascx" TagName="UserProfile" TagPrefix="mb" %>
+<%@ Register Src="Controls/ChangePassword.ascx" TagName="ChangePassword" TagPrefix="mb" %>
+<asp:Content ID="MainContent" ContentPlaceHolderID="MainContent" runat="Server">
+    <div class="breadcrumb">
+        <table>
+            <tr>
+                <td class="h1">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">Климатическое оборудование</asp:HyperLink></td>
+                <td><h1><asp:Label runat="server" ID="lblTitle" Text="Мои данные" /></h1></td>
+            </tr>
+        </table>
+    </div>
+    <div id="content">
+        <p>Личные данные используются для авторизации в нашем магазине, а также при обращении к Вам на страницах магазина и по электронной почте. В этом разделе Вы можите изменить личные данные указанные при регистрации. Поля, отмеченные <span style="color:Red">*</span>, обязательны для заполнения.</p>
+        <table width="100%">
+            <tr>
+                <td style="width: 50%;">
+                     <mb:UserProfile ID="UserProfile1" runat="server" From="info@MIRTOS.RU" FromCaption="Климатическое оборудование MIRTOS.RU" BodyFileName="~/ChangeProfileMail.txt" Subject="Изменение регистрационных данных"/>
+                </td>
+                <td style="width: 50%">
+                    <table width="100%">
+                        <tr style="background-color: #f1f4f5">
+                            <td class="fieldcaption">
+                                Смена пароля
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <mb:ChangePassword runat="server" From="info@MIRTOS.RU" FromCaption="Климатическое оборудование MIRTOS.RU" BodyFileName="~/ChangePasswordMail.txt" Subject="Изменение пароля"/>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>        
+    </div>
+</asp:Content>

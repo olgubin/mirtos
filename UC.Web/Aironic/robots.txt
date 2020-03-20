@@ -1,0 +1,34 @@
+User-Agent: *
+Host: www.aironic.ru
+Disallow: /Admin/
+Disallow: /PayPal/
+Disallow: /FCKeditor/
+Disallow: /AccessDenied.aspx
+Disallow: /AddEditPost.aspx
+Disallow: /EditProfile.aspx
+Disallow: /Error.aspx
+Disallow: /Howto.aspx
+Disallow: /Login.aspx
+Disallow: /OrderHistory.aspx
+Disallow: /PasswordRecovery.aspx
+Disallow: /PasswordRecoveryMail.txt
+Disallow: /RegistrationMail.txt
+Disallow: /Payments.aspx
+Disallow: /Register.aspx
+Disallow: /SearchResult.aspx
+Disallow: /Shipping.aspx
+Disallow: /ShoppingCart.aspx
+Disallow: /PasswordRecovery.aspx
+Disallow: /ArchivedNewsletters.aspx
+Disallow: /ArchivedPolls.aspx
+Disallow: /BrowseThreads.aspx
+Disallow: /GetArticlesRss.aspx
+Disallow: /GetProductsRss.aspx
+Disallow: /GetThreadsRss.aspx
+Disallow: /ShowForums.aspx
+Disallow: /ShowThread.aspx
+Disallow: /welcome.aspx
+Disallow: /Welcome.aspx
+
+
+

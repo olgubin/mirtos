@@ -1,0 +1,18 @@
+﻿<siteMapNode title="Departments" url="">
+  <siteMapNode  title="Кондиционеры" url="categoryDetails.aspx?CategoryID=1"></siteMapNode>
+</siteMapNode>
+
+<siteMapNode  title="Вентиляция" url="categoryDetails.aspx?CategoryID=2"></siteMapNode>
+
+</siteMapNode>
+
+<siteMapNode  title="Чиллеры, фанкойлы" url="categoryDetails.aspx?CategoryID=4"></siteMapNode>
+
+</siteMapNode>
+
+<siteMapNode  title="VRV" url="categoryDetails.aspx?CategoryID=3"></siteMapNode>
+</siteMapNode>
+<siteMapNode  title="Тепловое оборудование" url="categoryDetails.aspx?CategoryID=5"></siteMapNode>
+</siteMapNode>
+<siteMapNode  title="Отопление" url="categoryDetails.aspx?CategoryID=6"></siteMapNode>
+</siteMapNode>

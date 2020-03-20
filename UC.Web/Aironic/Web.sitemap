@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true" >
+  <siteMapNode title="Инженерные системы" url="~/">
+    <siteMapNode title="О компании" url="~/About.aspx" />
+    <siteMapNode title="Контакты" url="~/Contact.aspx" />
+    <siteMapNode title="Сервис" url="~/Service.aspx" />
+    <siteMapNode title="Объекты" url="~/Objects.aspx" />
+    <siteMapNode title="Проектирование" url="~/Design.aspx" />
+    <siteMapNode title="Монтаж" url="~/Assembly.aspx" />
+    <siteMapNode title="Гарантии" url="~/Guarantees.aspx" />
+    <siteMapNode title="Оплата" url="~/Payments.aspx" />
+    <siteMapNode title="Доставка" url="~/Shipping.aspx" />
+    <siteMapNode title="Партнеры" url="~/Partners.aspx" />
+    <siteMapNode title="Дилерам" url="~/Dealer.aspx" />
+    <siteMapNode title="Вакансии" url="~/Vacancy.aspx" />
+    <siteMapNode title="Карта сайта" url="~/SiteMap.aspx" />
+    <siteMapNode title="$Resources: SiteMap, Admin" url="~/Admin/Default.aspx" roles="Administrators,Editors,Contributors">
+      <siteMapNode title="$Resources: SiteMap, Manage_Users" url="~/Admin/ManageUsers.aspx" >
+        <siteMapNode title="$Resources: SiteMap, Edit_User" url="~/Admin/EditUser.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources: SiteMap, Manage_Articles" url="~/Admin/ManageArticles.aspx" >
+        <siteMapNode title="$Resources: SiteMap, Add_Edit_Article" url="~/Admin/AddEditArticle.aspx" />
+        <siteMapNode title="$Resources: SiteMap, Categories" url="~/Admin/ManageCategories.aspx" />
+        <siteMapNode title="$Resources: SiteMap, Comments" url="~/Admin/ManageComments.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources: SiteMap, Manage_Products" url="~/Admin/ManageProducts.aspx" >
+        <siteMapNode title="$Resources: SiteMap, Add_Edit_Product" url="~/Admin/AddEditProduct.aspx" />
+        <siteMapNode title="$Resources: SiteMap, Departments" url="~/Admin/ManageDepartments.aspx" />
+        <siteMapNode title="$Resources: SiteMap, OrderStatuses" url="~/Admin/ManageOrderStatuses.aspx" />
+        <siteMapNode title="$Resources: SiteMap, ShippingMethods" url="~/Admin/ManageShippingMethods.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources: SiteMap, Manage_Orders" url="~/Admin/ManageOrders.aspx" >
+        <siteMapNode title="$Resources: SiteMap, Edit_Order" url="~/Admin/EditOrder.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources: SiteMap, Manage_Forums" url="~/Admin/ManageForums.aspx" >
+        <siteMapNode title="$Resources: SiteMap, Approve_Posts" url="~/Admin/ManageUnapprovedPosts.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources: SiteMap, Manage_Polls" url="~/Admin/ManagePolls.aspx" />
+      <siteMapNode title="$Resources: SiteMap, Send_Newsletter" url="~/Admin/SendNewsletter.aspx" />
+      <siteMapNode title="$Resources: SiteMap, Sending_Newsletter" url="~/Admin/SendingNewsletter.aspx" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

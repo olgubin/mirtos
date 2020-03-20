@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/Banners/bnr_nano_600x90.gif</ImageUrl>
+    <NavigateUrl>~/BrowseProducts.aspx?DepID=4</NavigateUrl>
+    <AlternateText>Цифровой диктофон Гном Нано</AlternateText>
+    <Impressions>1</Impressions>
+    <Keyword>Header</Keyword>
+    <Width>600</Width>
+    <Height>90</Height>    
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Banners/bnr_avidius_600x90.gif</ImageUrl>
+    <NavigateUrl>~/BrowseProducts.aspx?DepID=1</NavigateUrl>
+    <AlternateText>Видеодиктофон AVIDIUS mobile</AlternateText>
+    <Impressions>1</Impressions>
+    <Keyword>Header</Keyword>
+    <Width>600</Width>
+    <Height>90</Height>
+  </Ad>  
+</Advertisements>

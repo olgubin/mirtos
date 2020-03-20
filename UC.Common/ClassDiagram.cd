@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="UC.UI.BasePage" Collapsed="true">
+    <Position X="29.75" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAgEAAABCAACCMBAAAAAhAAAAAgAAAAA=</HashCode>
+      <FileName>App_Code\BasePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.UI.BaseWebPart" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAIAgAFAEQAAABAAABAAACAAAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\BaseWebPart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UC.BLL.Articles.Article">
+    <Position X="4" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>TC0WAAgDeYAIBMBgSAgBAAAQEAEAAAAAkiACQIAAOAo=</HashCode>
+      <FileName>App_Code\BLL\Articles\Article.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Articles.BaseArticle">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAgAAAAABAAAAQAIAAAAAAgAgAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Articles\BaseArticle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Articles.Category">
+    <Position X="10.25" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQQAQAEAAIIggEAEAAAEIAAIAQEAAAAAAAAgCAAAAAg=</HashCode>
+      <FileName>App_Code\BLL\Articles\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Articles.Comment">
+    <Position X="16.25" Y="7" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="UC.BLL.Articles.Comment.CommentComparer">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\BLL\Articles\Comment.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABQAAEBAAAAAAEABAAAVQAAAEAEQIAAAwAgKAEAAEAA=</HashCode>
+      <FileName>App_Code\BLL\Articles\Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.BizObject">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAIAAABIAAQAgAAIACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\BizObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Forums.BaseForum">
+    <Position X="33.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAgAAAAABAAAAQAIAAAAAAgAgAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Forums\BaseForum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Forums.Forum">
+    <Position X="35.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAQAEAQIAkAUAEAAACAAAIAAEAAAIMAAAgAQAAAIA=</HashCode>
+      <FileName>App_Code\BLL\Forums\Forum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Forums.Post">
+    <Position X="31.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GD0BQCBCCIgABmhBAAAFAgACAgmwAAhA4ARAAgCAkAo=</HashCode>
+      <FileName>App_Code\BLL\Forums\Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Newsletters.Newsletter">
+    <Position X="20.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQREACRgEAKwgAAANBAAgQUCvEAAAAg0BoAQEAAFAA=</HashCode>
+      <FileName>App_Code\BLL\Newsletters\Newsletter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Polls.BasePoll">
+    <Position X="26.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAgAAAAABAAAAQAIAAAAAAgAgAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Polls\BasePoll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Polls.Option">
+    <Position X="24.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQIAICACBABAACAAEEAQAAAAAkAKAACEAAAAAAAAgA=</HashCode>
+      <FileName>App_Code\BLL\Polls\Option.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Polls.Poll">
+    <Position X="28.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACxgAAAIAQAAQAAAkAACwAAAAAMIAEAAEiAEAABDEBA=</HashCode>
+      <FileName>App_Code\BLL\Polls\Poll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Store.BaseStore">
+    <Position X="45" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAgAAAAABAAAAQAIAAAAAAgAgAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Store\BaseStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Store.Department">
+    <Position X="59.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQQQAEEAYAgGEAEAAAIAAAIAAEBAAAIAJAgYAAAhAA=</HashCode>
+      <FileName>App_Code\BLL\Store\Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Store.Order">
+    <Position X="39.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Q0RAARcGhF4wKAmAgCAASAA4RhUUAABABEBAAIAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Store\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Store.OrderItem">
+    <Position X="43.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAACBAAAIAIAEABAAAAAAAAAAAAQCAAAAAAkAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Store\OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Store.OrderStatus">
+    <Position X="47.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAIAAAEAAAAAYAAACAAEAAAACgAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Store\OrderStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Store.Product">
+    <Position X="51" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>4CcACAABA4gLgFAAAAY0AAjCEAGBAQFoUCICEIAuCAQ=</HashCode>
+      <FileName>App_Code\BLL\Store\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Store.ShippingMethod">
+    <Position X="55.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAYAAAEABAAAAAEAAAREABQAAAIAAAAAAABA=</HashCode>
+      <FileName>App_Code\BLL\Store\ShippingMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Store.ShoppingCartItem">
+    <Position X="59" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAACAAAAIAIgEABAABAAAAAAAAAAAAAAAAAkAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Store\ShoppingCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Store.ShoppingCart">
+    <Position X="55.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAACAAAAQAAAAgAABAAQAAAAAAAAABACAA=</HashCode>
+      <FileName>App_Code\BLL\Store\ShoppingCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Store.CurrentUserShoppingCart">
+    <Position X="57.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAgAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Store\ShoppingCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.TheStroihozSection" Collapsed="true">
+    <Position X="25.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIAAAABAAEAAAAQAAAEIAAACIAAAAAAwAgAAA=</HashCode>
+      <FileName>App_Code\ConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.ContactFormElement" Collapsed="true">
+    <Position X="25.75" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQAABAAAA=</HashCode>
+      <FileName>App_Code\ConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.ArticlesElement" Collapsed="true">
+    <Position X="25.75" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAACAAAAAAAAAAAICAAAACAAEAAAICA=</HashCode>
+      <FileName>App_Code\ConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.PollsElement" Collapsed="true">
+    <Position X="25.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAACAAAAIAAAAAAICBAAACACAAAAACA=</HashCode>
+      <FileName>App_Code\ConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.NewslettersElement" Collapsed="true">
+    <Position X="25.75" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAACAAAAAAAEBAAoCBAAACAAEAAAACA=</HashCode>
+      <FileName>App_Code\ConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.ForumsElement" Collapsed="true">
+    <Position X="25.75" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIBAABAAAAAAACgAAAAAAAAAAICAEAACMACAAAAGA=</HashCode>
+      <FileName>App_Code\ConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.StoreElement" Collapsed="true">
+    <Position X="25.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABAAEAAAACAQACAAAAgAAICAAAEDAAEAAAACA=</HashCode>
+      <FileName>App_Code\ConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.Globals" Collapsed="true">
+    <Position X="29.75" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Globals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.Helpers" Collapsed="true">
+    <Position X="29.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAQAAgIAAAAAgAAAAAAAAQAABAAAAA=</HashCode>
+      <FileName>App_Code\Helpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.ArticleDetails">
+    <Position X="0.5" Y="7" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BCEGAAiDYYAIhEAAAAhBAAAQAIAAAAAAkCgCAAAAEAo=</HashCode>
+      <FileName>App_Code\DAL\ArticleDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.ArticlesProvider">
+    <Position X="6.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAUAAQAAAKAAIJgSBAVYAAAGQAAIAAAwggASIAAAEg=</HashCode>
+      <FileName>App_Code\DAL\ArticlesProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.CategoryDetails">
+    <Position X="7" Y="7" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAGAAIAggEAEAABAAAAYAIAAAAAAAAggAAAAAAA=</HashCode>
+      <FileName>App_Code\DAL\CategoryDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.CommentDetails">
+    <Position X="13" Y="7" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEDAAAAAgAABAABBAAAQAIAQAAAAwAgAAEAAEAA=</HashCode>
+      <FileName>App_Code\DAL\CommentDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.DataAccess">
+    <Position X="11" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAACACAAAAAEAAAAIAAAAJACAAAAAAACE=</HashCode>
+      <FileName>App_Code\DAL\DataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.DepartmentDetails">
+    <Position X="57.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAGAAIAggEAEAABAAAAYAIABAAAIAAggQAAAgAA=</HashCode>
+      <FileName>App_Code\DAL\DepartmentDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.ForumDetails">
+    <Position X="33.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAGAQIAggUAEAABAAAAYAIAAAAAAAAggAAAAAAA=</HashCode>
+      <FileName>App_Code\DAL\ForumDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.ForumsProvider">
+    <Position X="12.75" Y="24.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>MCEEQCAAAAgAAABBAAFAEgAAAAgAAAIIYABgAgAAAoA=</HashCode>
+      <FileName>App_Code\DAL\ForumsProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.NewsletterDetails">
+    <Position X="18.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAgAAAAMBAAAAUAqAAAAAAgAoAAAAAAAA=</HashCode>
+      <FileName>App_Code\DAL\NewsletterDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.NewslettersProvider">
+    <Position X="4.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAgAACQgAAABACAAAAAAAAAAAAUQAAAAAAEAA=</HashCode>
+      <FileName>App_Code\DAL\NewslettersProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.OrderDetails">
+    <Position X="37.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QwBAABaChE4woAmAgCBASAA4RIAQAABABAhAAIAAAAA=</HashCode>
+      <FileName>App_Code\DAL\OrderDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.OrderItemDetails">
+    <Position X="41.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAACBCAAIAIgEABAABAAAAQAIAAQCAAAAgAkAAAAAA=</HashCode>
+      <FileName>App_Code\DAL\OrderItemDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.OrderStatusDetails">
+    <Position X="45.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAIAAgEAAAABAAAAQAIAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>App_Code\DAL\OrderStatusDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.PollDetails">
+    <Position X="26.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AChgAACAAAAAwAAAgABAQAAQAIAAAAAAEAgEAAACAAA=</HashCode>
+      <FileName>App_Code\DAL\PollDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.PollOptionDetails">
+    <Position X="23" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACAABAAgAAAAAFAQAAQAIgAAAACEAgAAAAAAAA=</HashCode>
+      <FileName>App_Code\DAL\PollOptionDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.PollsProvider">
+    <Position X="11" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAIAAAAAJAAAAAEACABAAAAAIIGAgQiAEAAABABA=</HashCode>
+      <FileName>App_Code\DAL\PollsProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.PostDetails">
+    <Position X="30" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAADCAIAAhmAAAABFAAASAoCwAAgAwAgAAACAEAo=</HashCode>
+      <FileName>App_Code\DAL\PostDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.ProductDetails">
+    <Position X="49.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oCEACACBA4gIgEAAAAZkAAASAIABAABoEAgCEAAmAAQ=</HashCode>
+      <FileName>App_Code\DAL\ProductDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.ShippingMethodDetails">
+    <Position X="53.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAACAAYAAgEAAAABAAAAQAIAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>App_Code\DAL\ShippingMethodDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SiteProvider" Collapsed="true">
+    <Position X="29.75" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAABAAEAAAAQAAAAIAAACAAAAAAEwAgAAA=</HashCode>
+      <FileName>App_Code\DAL\SiteProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.StoreProvider">
+    <Position X="8.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oQKUQQEMKAEDASAQAEAYEEjCgRAGRQELwNLQJYUAADA=</HashCode>
+      <FileName>App_Code\DAL\StoreProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SqlClient.SqlArticlesProvider">
+    <Position X="6.5" Y="33" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQAAAAAAKAAIBgSAAFYAAAEQAAIAAAgggASIAAAAg=</HashCode>
+      <FileName>App_Code\DAL\SqlClient\SqlArticlesProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SqlClient.SqlForumsProvider">
+    <Position X="12.75" Y="31.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>MCEAQCAAAAgAAABBAAAAAgAAAAgAAAIIYABAAgAAAIA=</HashCode>
+      <FileName>App_Code\DAL\SqlClient\SqlForumsProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SqlClient.SqlMembershipProviderEx" Collapsed="true">
+    <Position X="24" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\DAL\SqlClient\SqlMembershipProviderEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SqlClient.SqlNewslettersProvider">
+    <Position X="4.25" Y="29" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAACQgAAABAAAAAAAAAAAAAAUAAAAAAAEAA=</HashCode>
+      <FileName>App_Code\DAL\SqlClient\SqlNewslettersProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SqlClient.SqlPollsProvider">
+    <Position X="11" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAAAAABAAAAAEACAAAAAAAIIGAAAiAAAAABABA=</HashCode>
+      <FileName>App_Code\DAL\SqlClient\SqlPollsProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SqlClient.SqlStoreProvider">
+    <Position X="8.75" Y="39.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQKQAQEMAAADASAQAEAYEEjCARAEBQELwNJAJIAAABA=</HashCode>
+      <FileName>App_Code\DAL\SqlClient\SqlStoreProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfileGroupForum" Collapsed="true">
+    <Position X="27.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\stroihoz\f6cb721e\ae7e5a78\Sources_App_Code\profile.cdcab7d2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfileGroupContacts" Collapsed="true">
+    <Position X="27.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\stroihoz\bd391c1d\af6fb744\Sources_App_Code\profile.cdcab7d2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfileGroupAddress" Collapsed="true">
+    <Position X="27.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAEgAAAoAAAAAAAAAAABAABIEABgAIACAgAAAI=</HashCode>
+      <FileName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\stroihoz\f6cb721e\ae7e5a78\Sources_App_Code\profile.cdcab7d2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfileGroupPreferences" Collapsed="true">
+    <Position X="27.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\stroihoz\f6cb721e\ae7e5a78\Sources_App_Code\profile.cdcab7d2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfileCommon" Collapsed="true">
+    <Position X="27.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEAEAAAAAAAIAQAAAAAgAAAQACAAAAggAAAEg=</HashCode>
+      <FileName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\stroihoz\f6cb721e\ae7e5a78\Sources_App_Code\profile.cdcab7d2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SqlClient.SqlStatisticsProvider">
+    <Position X="66" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAADQQCAAFBAAOAAoECQBAAAAMAQAMAAAAABFBCASAA=</HashCode>
+      <FileName>App_Code\DAL\SqlClient\SqlStatisticsProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.StatisticsProvider">
+    <Position X="63" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABH8UCAAFRAAOoAsEDTBBYIBNAQAMAgUICBFBCAagA=</HashCode>
+      <FileName>App_Code\DAL\StatisticsProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SqlClient.SqlSearchProvider">
+    <Position X="15.25" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAIAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\DAL\SqlClient\SqlSearchProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SearchProvider">
+    <Position X="15.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAgAAIAAgAAAAAAAgAAABAAAQAAAAAAAAAE=</HashCode>
+      <FileName>App_Code\DAL\SearchProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Statistics.BaseStatistics">
+    <Position X="75.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Statistics\BaseStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Statistics.Site">
+    <Position X="87.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACAEAAAEEAEAAAQAAQAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Statistics\Site.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Statistics.Bot">
+    <Position X="79.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEAABABAAABEAAAAAAAAAAAAQAACAAAAAQAA=</HashCode>
+      <FileName>App_Code\BLL\Statistics\Bot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Statistics.Keyword">
+    <Position X="83.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAAAAAAAAAAAAAAAAAAAAAAIAApAIAAAAQAAAgAA=</HashCode>
+      <FileName>App_Code\BLL\Statistics\Keyword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Statistics.Page">
+    <Position X="67.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAICAAAQAAAAAAAAAAAQAAKAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\BLL\Statistics\Page.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Statistics.Request">
+    <Position X="63.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICQAAAgAAAAIQAAIAgAAApAAAAAAIAiABAAAAAQAA=</HashCode>
+      <FileName>App_Code\BLL\Statistics\Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Statistics.SearchEngine">
+    <Position X="75.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQYAEAAABgAEAAAAAAAAQAAAAAAAAQBAAAAAAAQAA=</HashCode>
+      <FileName>App_Code\BLL\Statistics\SearchEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.BLL.Statistics.Session">
+    <Position X="71.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAEBgAABAIACBAIAgIIAgAAAAYgACBCAAAQAA=</HashCode>
+      <FileName>App_Code\BLL\Statistics\Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.RequestDetails">
+    <Position X="61.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICQAAAAAAAAAQAAIAgAAApAAAAAAIAiABAAAAAQAA=</HashCode>
+      <FileName>App_Code\DAL\RequestDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SearchEngineDetails">
+    <Position X="73.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAAAAAAgAEAAAAAAAAQAAAAAAAAQAAAAAAAAQAA=</HashCode>
+      <FileName>App_Code\DAL\SearchEngineDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SessionDetails">
+    <Position X="69.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAEAgAABAAACBAIAgIIAgAAAAYgACACAAAQAA=</HashCode>
+      <FileName>App_Code\DAL\SessionDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.SiteDetails">
+    <Position X="85.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEAAAAAAAAAAAAAQAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>App_Code\DAL\SiteDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.PageDetails">
+    <Position X="65.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAICAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\DAL\PageDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.KeywordDetails">
+    <Position X="81.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAQAAAgAA=</HashCode>
+      <FileName>App_Code\DAL\KeywordDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UC.DAL.BotDetails">
+    <Position X="77.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABAAAAEAAAAAAAAAAAAQAACAAAAAQAA=</HashCode>
+      <FileName>App_Code\DAL\BotDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="UC.BLL.Newsletters.SubscriberInfo">
+    <Position X="29.75" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAg=</HashCode>
+      <FileName>App_Code\BLL\Newsletters\Newsletter.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="UC.BLL.Newsletters.SubscriptionType">
+    <Position X="29.75" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAEAAAA=</HashCode>
+      <FileName>App_Code\BLL\Newsletters\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UC.BLL.Store.StatusCode">
+    <Position X="29.75" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAACBAA=</HashCode>
+      <FileName>App_Code\BLL\Store\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

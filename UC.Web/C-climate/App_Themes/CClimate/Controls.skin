@@ -1,0 +1,170 @@
+<asp:Image runat="server" SkinID="HeaderLogo" ImageUrl="images/logo.gif" AlternateText="Инженерные системы"/>
+
+<asp:ImageButton runat="server" SkinID="Search" ImageUrl="images/search.gif" AlternateText="Найти"/>
+
+<asp:Image runat="server" SkinID="FooterLogo" ImageUrl="images/footerlogo.gif" AlternateText="Климатическое оборудование"/>
+
+<asp:Image runat="server" SkinID="ShoppingCartBox" ImageUrl="images/cart.gif" AlternateText="Перейти в корзину"/>
+
+<asp:Image runat="server" SkinID="ShoppingCartArticle" ImageUrl="images/product.gif" GenerateEmptyAlternateText="true"/>
+
+<asp:Image runat="server" SkinID="All" ImageUrl="images/all.gif" ImageAlign="AbsMiddle" GenerateEmptyAlternateText="true"/>
+
+<asp:Image runat="server" SkinID="Separator" ImageUrl="images/separator.gif" AlternateText="->"/>
+
+<asp:Image runat="server" SkinID="Newsletter" ImageUrl="images/news.gif" GenerateEmptyAlternateText="true"/>
+
+<asp:Image runat="server" SkinID="Article" ImageUrl="images/article.gif" GenerateEmptyAlternateText="true"/>
+
+<asp:Image runat="server" SkinID="ToShoppingCart" ImageUrl="images/tocart.gif" AlternateText="Оформить заказ"/>
+
+<asp:Image runat="server" SkinID="PageNext" ImageUrl="images/next.gif" ImageAlign="AbsBottom"/>
+
+<asp:Image runat="server" SkinID="PagePrev" ImageUrl="images/prev.gif" ImageAlign="AbsBottom"/>
+
+<asp:Image runat="server" SkinID="SortAsc" ImageUrl="images/asc.gif" Hspace="3"/>
+
+<asp:Image runat="server" SkinID="SortDesc" ImageUrl="images/desc.gif" Hspace="3"/>
+
+<asp:Image runat="Server" SkinID="FullProductImage" Width="277px" Height="277px" GenerateEmptyAlternateText="true" BorderWidth="1px" BorderColor="#9aaab1" />
+
+<asp:TextBox runat="server" BorderWidth="1px" />
+
+<asp:Label runat="server" SkinID="FeedbackOK" ForeColor="green" />
+
+<asp:Label runat="server" SkinID="FeedbackKO" ForeColor="red" />
+
+<asp:Label runat="server" SkinID="NotApproved" ForeColor="red" BackColor="yellow" Tooltip="Статья ожидает утверждения" Font-Size="smaller" />
+
+<asp:LoginName runat="server" Font-Bold="true" Font-Size="8pt" />
+
+<asp:LinkButton runat="server" SkinID='SelectPage' BackColor="#9aaab1" ForeColor="white" />
+
+<asp:ImageButton runat="server" SkinID="Send" ImageUrl="images/send.gif" AlternateText="Отправить"/>
+
+<asp:ImageButton runat="server" SkinID="Vote" ImageUrl="images/vote.gif" AlternateText="Голосовать"/>
+
+<asp:ImageButton runat="server" SkinID="Cancel" AlternateText="Отменить" ImageUrl="images/cancel.gif" />
+
+<asp:ImageButton runat="server" SkinID="Update" AlternateText="Обновить" ImageUrl="images/update.gif" />
+
+<asp:ImageButton runat="server" SkinID="Insert" AlternateText="Вставить" ImageUrl="images/insert.gif" />
+
+<asp:ImageButton runat="server" SkinID="Delete" AlternateText="Удалить" ImageUrl="images/delete.gif" />
+
+<asp:ImageButton runat="server" SkinID="Buy" AlternateText="В корзину" ImageUrl="images/buy.gif" />
+
+<asp:ImageButton runat="server" SkinID="ToSelect" AlternateText="Выбрать" ImageUrl="images/select.gif" />
+
+<asp:ImageButton runat="server" SkinID="Reserve" AlternateText="Оформить заказ" ImageUrl="images/reserve.gif" CssClass="btn"/>
+
+<asp:ImageButton runat="server" SkinID="ProceedOrder" AlternateText="Продолжить оформление" ImageUrl="images/continue_order.gif" CssClass="btn"/>
+
+<asp:ImageButton runat="server" SkinID="ConfirmOrder" AlternateText="Подтвердить заказ" ImageUrl="images/confirm.gif" CssClass="btn"/>
+
+<asp:ImageButton runat="server" SkinID="ContinueShopping" AlternateText="Продолжить покупки" ImageUrl="images/continue.gif" CssClass="btn"/>
+
+<asp:ImageButton runat="server" SkinID="UpdateTotals"  AlternateText="Пересчитать" ImageUrl="images/calc.gif"/>
+
+<asp:GridView runat="server" Width="100%" CellPadding="4" ForeColor="#333333" GridLines="Both" BorderColor="White">
+   <FooterStyle BackColor="#aebec5" Font-Bold="True" ForeColor="White"/>
+   <RowStyle BackColor="#f1f4f5" ForeColor="#333333"/>
+   <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center"/>
+   <SelectedRowStyle BackColor="#aebec5" Font-Bold="True" ForeColor="#333333"/>
+   <HeaderStyle BackColor="#aebec5" Font-Bold="True" ForeColor="White"/>
+   <AlternatingRowStyle BackColor="White"/>
+</asp:GridView>
+
+<asp:GridView SkinID="Posts" runat="server" Width="100%" CellPadding="0" ForeColor="#333333" GridLines="None">
+   <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+   <RowStyle BackColor="Transparent" ForeColor="#333333"/>
+   <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
+   <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+   <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+   <AlternatingRowStyle BackColor="White" />
+</asp:GridView>
+
+<asp:GridView runat="server" Width="100%" SkinID="Articles" ShowHeader="false" CssClass="alltable" GridLines="None">
+</asp:GridView>
+
+<asp:GridView runat="server" Width="100%" SkinID="Filters" ShowHeader="false" GridLines="None">
+</asp:GridView>
+
+<asp:DetailsView SkinID="DetailsView" runat="server" CellPadding="1" GridLines="None" Height="50px" Width="100%">
+   <AlternatingRowStyle BackColor="White" />
+   <CommandRowStyle BackColor="White" HorizontalAlign="Right" />
+   <RowStyle BackColor="Transparent" />
+   <FieldHeaderStyle BackColor="White"/>
+</asp:DetailsView>
+
+<asp:DetailsView runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" Height="50px" Width="100%">
+   <FooterStyle BackColor="#aebec5" Font-Bold="True" ForeColor="White" />
+   <PagerStyle BackColor="Transparent" ForeColor="#333333" HorizontalAlign="Center" />      
+   <HeaderStyle BackColor="#aebec5" Font-Bold="True" ForeColor="White" />
+   <AlternatingRowStyle BackColor="#f1f4f5" />
+   <CommandRowStyle BackColor="Transparent" Font-Bold="True" HorizontalAlign="Right" />
+   <RowStyle BackColor="#f1f4f5" />
+   <FieldHeaderStyle BackColor="#f1f4f5" Font-Bold="True" />
+</asp:DetailsView>
+
+<asp:DataList runat="server" Width="100%" CssClass="alltable" GridLines="None">
+</asp:DataList>
+
+<asp:TreeView runat="server"
+    collapseimageurl="images/expand.gif" 
+    expandimageurl="images/collapse.gif" 
+    nodestyle-forecolor="Black"
+    nodestyle-horizontalpadding="5"
+    hovernodestyle-backcolor="#aebec5"
+    selectednodestyle-backcolor="#aebec5"
+    nodeindent="10"/>
+
+<asp:WebPartZone runat="server" BorderColor="#CCCCCC" Font-Names="Verdana" Padding="0" PartChromeType="TitleOnly">
+   <PartTitleStyle CssClass="sectiontitle" />
+   <MenuLabelHoverStyle ForeColor="#FFCC66" />
+   <EmptyZoneTextStyle Font-Size="0.8em" />
+   <MenuLabelStyle ForeColor="White" />
+   <MenuVerbHoverStyle BackColor="#FFFBD6" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" ForeColor="#333333" />
+   <HeaderStyle Font-Bold="true" Font-Size="8pt" />
+   <MenuVerbStyle BorderColor="#990000" BorderStyle="Solid" BorderWidth="1px" ForeColor="White" />
+   <TitleBarVerbStyle Font-Size="0.6em" Font-Underline="False" ForeColor="White" />
+   <MenuPopupStyle BackColor="#990000" BorderColor="#CCCCCC" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.6em" />   
+   <MinimizeVerb ImageUrl="~/Images/GoDown.gif"></MinimizeVerb>
+   <RestoreVerb ImageUrl="~/Images/GoUp.gif"></RestoreVerb>
+   <EditVerb ImageUrl="~/Images/Edit.gif"></EditVerb>
+   <CloseVerb ImageUrl="~/Images/Close.gif"></CloseVerb>
+   <DeleteVerb ImageUrl="~/Images/Delete.gif" />   
+</asp:WebPartZone>
+
+<asp:EditorZone runat="server" BackColor="#FFFBD6" BorderColor="#CCCCCC" BorderWidth="1px" Font-Names="Verdana" Padding="6">
+   <HeaderStyle BackColor="#FFCC66" Font-Bold="True" Font-Size="0.8em" ForeColor="#333333" />
+   <LabelStyle Font-Size="0.8em" ForeColor="#333333" />
+   <HeaderVerbStyle Font-Bold="False" Font-Size="0.8em" Font-Underline="False" ForeColor="#333333" />
+   <PartChromeStyle BorderColor="#FFCC66" BorderStyle="Solid" BorderWidth="1px" />
+   <PartStyle BorderColor="#FFFBD6" BorderWidth="5px" />
+   <FooterStyle BackColor="#FFCC66" HorizontalAlign="Right" />
+   <EditUIStyle Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" />
+   <InstructionTextStyle Font-Size="0.8em" ForeColor="#333333" />
+   <ErrorStyle Font-Size="0.8em" />
+   <VerbStyle Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" />
+   <EmptyZoneTextStyle Font-Size="0.8em" ForeColor="#333333" />
+   <PartTitleStyle Font-Bold="True" Font-Size="0.8em" ForeColor="#333333" />
+   <HeaderCloseVerb ImageUrl="~/Images/Close.gif" />
+</asp:EditorZone>
+
+<asp:CatalogZone runat="server" BackColor="#FFFBD6" BorderColor="#CCCCCC" BorderWidth="1px" Font-Names="Verdana" Padding="6">
+   <HeaderVerbStyle Font-Bold="False" Font-Size="0.8em" Font-Underline="False" ForeColor="#333333" />
+   <PartTitleStyle BackColor="#990000" Font-Bold="True" Font-Size="0.8em" ForeColor="White" />
+   <PartChromeStyle BorderColor="#FFCC66" BorderStyle="Solid" BorderWidth="1px" />
+   <InstructionTextStyle Font-Size="0.8em" ForeColor="#333333" />
+   <PartLinkStyle Font-Size="0.8em" />
+   <EmptyZoneTextStyle Font-Size="0.8em" ForeColor="#333333" />
+   <LabelStyle Font-Size="0.8em" ForeColor="#333333" />
+   <VerbStyle Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" />
+   <PartStyle BorderColor="#FFFBD6" BorderWidth="5px" />
+   <SelectedPartLinkStyle Font-Size="0.8em" />
+   <FooterStyle BackColor="#FFCC66" HorizontalAlign="Right" />
+   <HeaderStyle BackColor="#FFCC66" Font-Bold="True" Font-Size="0.8em" ForeColor="#333333" />
+   <EditUIStyle Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" />
+   <HeaderCloseVerb ImageUrl="~/Images/Close.gif" />
+</asp:CatalogZone>

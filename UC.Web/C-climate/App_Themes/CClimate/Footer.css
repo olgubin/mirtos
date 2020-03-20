@@ -1,0 +1,81 @@
+﻿#footer
+{
+    width: 100%;
+    height: 47px;
+    background-color: #9aaab1;
+    position: relative;
+    min-width: 1070px;
+    color: White;
+    font-family: Tahoma;
+    font-size: 8pt;     
+}
+
+/*For IE*/
+* html #footer
+{
+	width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1071?'1070px':'100%');  
+}
+
+#footerleft
+{
+    position: absolute;
+    top: 12px; /*5px;*/ /* 17px;*/
+    left: 12px;
+}
+
+#footerleft a
+{
+    color: White;
+    text-decoration: none;
+}
+
+#footerleft a:hover
+{
+    text-decoration: underline;
+}
+
+#footerbanner
+{
+    position: absolute;
+    top: 8px;
+    width: 88px;
+    height: 31px;
+}
+
+.footermenu
+{
+    position: absolute;
+    top: 17px;
+    right: 23px;
+}
+
+.footermenu a
+{
+    padding-left:30px;
+    color: White;
+    text-decoration: none;
+}
+
+.footermenu a:hover
+{
+    text-decoration: underline;
+}
+
+.footerbottom
+{
+    color: #9aaab1;
+    position: absolute;
+    top: 31px;
+    left: 12px;
+}
+
+.footerbottom a
+{
+    color: #9aaab1;
+    text-decoration: none;
+}
+
+.footerbottom a:hover
+{
+    text-decoration: none;
+}
