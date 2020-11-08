@@ -38,16 +38,16 @@ namespace UC.SEOHelper
                 switch (departmentId)
                 {
                     case 1:
-                        url = string.Format("{0}kupit-kondicioner.aspx", GetStoreHTTPLocation(false));
+                        url = string.Format("{0}kupit-kondicioner.aspx", GetStoreHTTPLocation(true));
                         break;
                     case 9:
-                        url = string.Format("{0}mobilnyj-kondicioner.aspx", GetStoreHTTPLocation(false));
+                        url = string.Format("{0}mobilnyj-kondicioner.aspx", GetStoreHTTPLocation(true));
                         break;
                     case 15:
-                        url = string.Format("{0}okonnyj-kondicioner.aspx", GetStoreHTTPLocation(false));
+                        url = string.Format("{0}okonnyj-kondicioner.aspx", GetStoreHTTPLocation(true));
                         break;
                     default:
-                        url = string.Format("{0}Departments.aspx?DepID={1}", GetStoreHTTPLocation(false), departmentId);
+                        url = string.Format("{0}Departments.aspx?DepID={1}", GetStoreHTTPLocation(true), departmentId);
                         break;
                 }
             }
