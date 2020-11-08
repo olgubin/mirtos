@@ -12,7 +12,7 @@
     void Application_Start(Object sender, EventArgs e)
     {
         // Code that runs on application startup
-        System.Threading.Timer t = new System.Threading.Timer(new System.Threading.TimerCallback(DoRun), null, 0, 86400000);
+        // System.Threading.Timer t = new System.Threading.Timer(new System.Threading.TimerCallback(DoRun), null, 0, 86400000);
     }
 
     void Application_End(Object sender, EventArgs e)
@@ -104,28 +104,28 @@
         AnonymousIdentificationModule.ClearAnonymousIdentifier();
     }
 
-    private void DoRun(object state)
-    {
-        try
-        {
-            //if ((DateTime.Now.Hour > 0) && (DateTime.Now.Hour < 1))
-            //{
-            string generatedYML = YandexMarketService.GenerateYML(SettingManager.GetSettingValue("Common.StoreURL"), SettingManager.GetSettingValue("Common.Domen"), SettingManager.GetSettingValue("Common.Company"));
-            string fileName = SettingManager.GetSettingValue("Common.Domen");
-            fileName = fileName.Replace(".", "_").ToLower();
-            fileName = string.Format("{0}.xml", fileName);
-            string filePath = string.Format("{0}{1}", HttpContext.Current.Request.PhysicalApplicationPath, fileName);
-            using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.ReadWrite))
-            using (StreamWriter sw = new StreamWriter(fs, System.Text.Encoding.Default))
-            {
-                sw.Write(generatedYML);
-            }
-            //}
-        }
-        catch
-        {
-        }
-    }
+    //private void DoRun(object state)
+    //{
+    //    try
+    //    {
+    //        //if ((DateTime.Now.Hour > 0) && (DateTime.Now.Hour < 1))
+    //        //{
+    //        string generatedYML = YandexMarketService.GenerateYML(SettingManager.GetSettingValue("Common.StoreURL"), SettingManager.GetSettingValue("Common.Domen"), SettingManager.GetSettingValue("Common.Company"));
+    //        string fileName = SettingManager.GetSettingValue("Common.Domen");
+    //        fileName = fileName.Replace(".", "_").ToLower();
+    //        fileName = string.Format("{0}.xml", fileName);
+    //        string filePath = string.Format("{0}{1}", HttpContext.Current.Request.PhysicalApplicationPath, fileName);
+    //        using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.ReadWrite))
+    //        using (StreamWriter sw = new StreamWriter(fs, System.Text.Encoding.Default))
+    //        {
+    //            sw.Write(generatedYML);
+    //        }
+    //        //}
+    //    }
+    //    catch
+    //    {
+    //    }
+    //}
 
     /*
     void Application_PostAcquireRequestState(Object sender, EventArgs e)
@@ -136,6 +136,6 @@
        System.Threading.Thread.CurrentThread.CurrentUICulture = culture;
     }
     */
-       
+
 </script>
 
