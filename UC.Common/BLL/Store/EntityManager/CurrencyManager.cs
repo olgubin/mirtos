@@ -196,14 +196,22 @@ namespace UC.BLL.Store
             {
                 Currency currency = new Currency();
 
-                if (HttpContext.Current.Session["CurrencyID"] != null)
+                if (HttpContext.Current == null)
                 {
-                    int currencyID = (int)HttpContext.Current.Session["CurrencyID"];
-                    currency = CurrencyManager.GetByCurrencyID(currencyID);
+                    currency = CurrencyManager.PrimaryCurrency;
+
                 }
                 else
                 {
-                    currency = CurrencyManager.PrimaryCurrency;
+                    if (HttpContext.Current.Session["CurrencyID"] != null)
+                    {
+                        int currencyID = (int)HttpContext.Current.Session["CurrencyID"];
+                        currency = CurrencyManager.GetByCurrencyID(currencyID);
+                    }
+                    else
+                    {
+                        currency = CurrencyManager.PrimaryCurrency;
+                    }
                 }
 
                 return currency;
